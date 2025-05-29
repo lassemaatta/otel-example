@@ -2,6 +2,11 @@
 
 Example of how enabling the instrumentation agent causes problems with nested spans.
 
+This is a clojure project running on leiningen, so you need at least
+- a JVM, 17+ ought to be enough
+- clojure: https://clojure.org/guides/install_clojure
+- leiningen: https://leiningen.org/
+
 ## Usage
 
 run `lein run` to start app. A web server will be started in `http://localhost:8080`.
